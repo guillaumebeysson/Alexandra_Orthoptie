@@ -68,6 +68,10 @@ nav ul li:hover {
 
 }
 
+#firstSection {
+    padding-top: 100px;
+}
+
 h1 {
     padding: 60px 0;
     text-align: center;
@@ -228,6 +232,10 @@ h3 {
         padding: 0;
         left: 0px;
         transition: left 0.8s ease-in-out;
+    }
+
+    #firstSection {
+        padding-top: 100px;
     }
 
     h2 {
