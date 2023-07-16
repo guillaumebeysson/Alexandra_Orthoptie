@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -50,6 +51,11 @@ nav ul {
     display: flex;
     flex-direction: row;
     cursor: pointer;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: inherit;
 }
 
 nav ul li {
@@ -206,9 +212,11 @@ h3 {
         flex-direction: column;
         padding: 0;
         width: 100%;
-        top: 75px;
+        top: 80px;
         left: -100%;
         transition: left 0.8s ease-in-out;
+        z-index: 99;
+        background: linear-gradient(135deg, rgba(127, 70, 254, 1) 0%, rgba(195, 113, 255, 1) 160%);
     }
 
     .right-part-line-bar li {
