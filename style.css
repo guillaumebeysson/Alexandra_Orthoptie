@@ -69,7 +69,7 @@ nav ul li:hover {
 }
 
 #firstSection {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 h1 {
@@ -148,6 +148,8 @@ h3 {
     margin-top: 20px;
     width: 100%;
     cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
     transition: all 0.25s ease-in-out;
 }
 
