@@ -56,6 +56,13 @@ a {
     font-weight: 600;
 }
 
+.reset a {
+    text-decoration: none;
+    color: #A105FE;
+    border: solid 1px #A105FE;
+    padding: 5px;
+}
+
 .reset:focus {
     color: #ffffff;
     background: #A105FE;
