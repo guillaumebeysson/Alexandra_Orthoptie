@@ -145,7 +145,7 @@ a {
     margin-bottom: 5px;
 }
 
-/* @-moz-document url-prefix() {
+@-moz-document url-prefix() {
 
     .item {
         transform: rotateY(0deg);
@@ -159,7 +159,7 @@ a {
     .boxMatch:after {
         transform: rotateY(180deg);
     }
-} */
+}
 
 @media screen and (max-width: 749px) {
     .container {
