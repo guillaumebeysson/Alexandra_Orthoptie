@@ -103,9 +103,18 @@ a {
     backface-visibility: hidden;
 }
 
+/* .item .divImage {
+    background-color: aqua;
+    position: relative;
+
+} */
+
 .item img {
-    width: 150px;
-    height: 150px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .boxMatch {
@@ -145,6 +154,11 @@ a {
     margin-bottom: 5px;
 }
 
+#elapsedTime {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
 @-moz-document url-prefix() {
 
     .item {
@@ -168,10 +182,7 @@ a {
 
 
 
-    .item img {
-        width: 100px;
-        height: 100px;
-    }
+    .item img {}
 }
 
 @media screen and (max-width: 560px) {
