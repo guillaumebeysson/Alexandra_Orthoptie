@@ -30,7 +30,7 @@ for (let i = 0; i < emojis.length; i++) {
     let box = document.createElement('div');
     box.className = 'item';
     let image = document.createElement('img');
-    image.src = 'assets/16couleurs/' + shuf_emojis[i];
+    image.src = 'assets/18couleurs/' + shuf_emojis[i];
     box.appendChild(image);
 
     box.onclick = function () {
