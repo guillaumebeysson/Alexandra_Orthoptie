@@ -46,6 +46,11 @@ for (let i = 0; i < emojis.length; i++) {
   let box = document.createElement("div");
   box.className = "item";
   let image = document.createElement("img");
+  if (shuf_emojis[i].endsWith(".jpg")) {
+    image.style.width = "auto";
+    image.style.margin = "auto";
+    // Ajustez la largeur de l'image à 200px
+  }
   image.src = "/assets/motsImages/" + shuf_emojis[i];
   box.appendChild(image);
 
@@ -56,12 +61,6 @@ for (let i = 0; i < emojis.length; i++) {
     }
 
     this.classList.add("boxOpen");
-    console.log(
-      "log box 0 : " +
-        document
-          .querySelectorAll(".boxOpen")[0]
-          .innerHTML.replace(/\.\w+">/i, '">')
-    );
     setTimeout(function () {
       if (document.querySelectorAll(".boxOpen").length > 1) {
         if (
