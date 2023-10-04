@@ -46,7 +46,7 @@ document.getElementById("startButton").addEventListener("click", function () {
             messageElement.innerText = "Terminé";
           }, 2000); // Afficher "Terminé" après 2s
         }
-      }, 1000); // durée d'affichage des lettres 1s
+      }, 200); // durée d'affichage des lettres 1s
     }
   }
 

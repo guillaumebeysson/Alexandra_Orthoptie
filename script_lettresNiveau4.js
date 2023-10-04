@@ -38,7 +38,7 @@ document.getElementById("startButton").addEventListener("click", function () {
         clearLetters();
         seriesIndex++;
         if (seriesIndex < letterSeries.length) {
-          setTimeout(displayNextSeries, 3000); // Attendez 3 secondes entre les séries
+          setTimeout(displayNextSeries, 1500); // Attendez 3 secondes entre les séries
         } else {
           lettersElement.style.display = "none";
           setTimeout(function () {
@@ -46,7 +46,7 @@ document.getElementById("startButton").addEventListener("click", function () {
             messageElement.innerText = "Terminé";
           }, 2000); // Afficher "Terminé" après 2s
         }
-      }, 1000); // durée d'affichage des lettres 1s
+      }, 50); // durée d'affichage des lettres 1s
     }
   }
 

@@ -81,11 +81,12 @@ h1 {
     background: #fff;
 }
 
-.memory_backgroundText {
+.title_backgroundText {
+    overflow: hidden;
     padding-top: 150px;
     top: -2.4vw;
     left: -4vw;
-    font-size: 21vw;
+    font-size: 20vw;
     position: relative;
     color: rgba(255, 255, 255, .07);
     font-weight: 500;

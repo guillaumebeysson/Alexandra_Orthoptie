@@ -5,7 +5,18 @@ document.getElementById("startButton").addEventListener("click", function () {
   var messageElement = document.getElementById("message");
 
   // Définir les séries de lettres
-  var letterSeries = ["S", "G", "D", "A", "P", "J", "Z", "K", "D", "P"];
+  var letterSeries = [
+    "S V Z K P",
+    "G H J P O",
+    "D R C W M",
+    "A Q K U I",
+    "P M C S N",
+    "J G K R Z",
+    "Z D F K Q",
+    "K Z M N B",
+    "D Y T R W",
+    "P M X V Z",
+  ];
   var seriesIndex = 0;
 
   function updateCountdown() {
@@ -46,7 +57,7 @@ document.getElementById("startButton").addEventListener("click", function () {
             messageElement.innerText = "Terminé";
           }, 2000); // Afficher "Terminé" après 2s
         }
-      }, 1000); // durée d'affichage des lettres 1s
+      }, 200); // durée d'affichage des lettres 1s
     }
   }
 
