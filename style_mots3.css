@@ -156,8 +156,9 @@ a {
         transform: rotateY(0deg);
     }
 
+
     .item.boxOpen {
-        transform: rotateY(180deg);
+        transform: rotateY(0deg);
     }
 
     .boxOpen:after,
