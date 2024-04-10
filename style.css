@@ -35,6 +35,15 @@ header {
     align-items: center;
 }
 
+#back-up {
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: -50px;
+    text-align: center;
+    transition: all 1s;
+}
+
 #logo {
     cursor: pointer;
 }
