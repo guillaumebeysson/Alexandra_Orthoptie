@@ -6,16 +6,16 @@ document.getElementById("startButton").addEventListener("click", function () {
 
   // Définir les séries de lettres
   var letterSeries = [
-    "S V Z K P",
-    "G H J P O",
-    "D R C W M",
-    "A Q K U I",
-    "P M C S N",
-    "J G K R Z",
-    "Z D F K Q",
-    "K Z M N B",
-    "D Y T R W",
-    "P M X V Z",
+    "V F R T G",
+    "B G T Y H",
+    "M P L O K",
+    "W Q A Z S",
+    "X E D C R",
+    "F V T G B",
+    "N H Y U J",
+    "J U I K O",
+    "P A Z N X",
+    "O J V D Z",
   ];
   var seriesIndex = 0;
 
