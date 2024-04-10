@@ -5,7 +5,7 @@ document.getElementById("startButton").addEventListener("click", function () {
   var messageElement = document.getElementById("message");
 
   // Définir les séries de lettres
-  var letterSeries = ["S", "G", "D", "A", "P", "J", "Z", "K", "D", "P"];
+  var letterSeries = ["Z", "D", "T", "Y", "U", "I", "O", "Q", "S", "D"];
   var seriesIndex = 0;
 
   function updateCountdown() {
