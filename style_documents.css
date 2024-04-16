@@ -1,0 +1,38 @@
+.list_items {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    backdrop-filter: blur(6px);
+    background: linear-gradient(135deg, rgba(233, 232, 253, .3), rgba(184, 161, 247, .1));
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    box-shadow: inset -1px 1px 3px 0 rgba(255, 255, 255, .2), 0 7px 8px -4px rgba(0, 0, 0, .13), 0 12px 17px 2px rgba(0, 0, 0, .08), 0 5px 22px 4px rgba(0, 0, 0, .07);
+    transition: transform 0.3s ease;
+}
+
+.list_items:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, .3), rgba(255, 255, 255, .1));
+    transition: transform background 0.3s ease;
+    transform: translateY(-5px);
+}
+
+.list_documents {
+    margin: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square_documents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
